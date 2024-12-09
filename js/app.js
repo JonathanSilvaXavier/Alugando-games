@@ -6,7 +6,7 @@ function alterarStatus (id) {
 
     if (imagem.classList.contains('dashboard__item__img--rented')) {
          // Exibe a confirmação antes de prosseguir com a devolução
-        let confirmacao = confirm("Tem certeza de que deseja devolver jogo ${nom}?");
+        let confirmacao = confirm("Tem certeza de que deseja devolver jogo?");
         if (!confirmacao) {
             return; // Se o usuário cancelar, interrompe a função
         }
